@@ -1,0 +1,29 @@
+{
+  "name": "lunar.webdesign",
+  "version": "1.0.0",
+  "description": "The design system for web apps.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:webpack": "webpack --watch",
+    "server:start": "http-server -c-1 -o dist",
+    "serve": "npm-run-all --parallel server:*"
+  },
+  "keywords": [],
+  "author": "Goh Chun Lin",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "npm-run-all": "^4.1.5",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "construct-ui": "^0.3.4",
+    "lodash": "^4.17.21",
+    "mithril": "^2.2.2"
+  }
+}
