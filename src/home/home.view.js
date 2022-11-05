@@ -13,14 +13,14 @@ export default function HomeView() {
                 m('.haneul-nav-wrapper', 
                     m('header.haneul-nav', [
                         m('.nav-group',
-                            m('a', { href: '/dist/#/' }, m('img', { src: HaneulLogo }))
+                            m('a', { href: '/#/' }, m('img', { src: HaneulLogo }))
                         ),
                         m('.nav-group.pr-80px', 
                             m('ul', [
                                 m('li.menu-item.active', m('a.menu-item--content', { href: 'javascript:;' }, m('pre', 'About Haneul'))),
                                 m('.menu-divider'),
-                                m('li.menu-item.min-w-70.mr-9', m('a.menu-item--content', { href: '/dist/#/components/badge' }, m('pre', 'Components'))),
-                                m('li.menu-item.min-w-70.mr-9', m('a.menu-item--content', { href: '/dist/#/design-token/colours' }, m('pre', 'Design Token'))),
+                                m('li.menu-item.min-w-70.mr-9', m('a.menu-item--content', { href: '/#/components/badge' }, m('pre', 'Components'))),
+                                m('li.menu-item.min-w-70.mr-9', m('a.menu-item--content', { href: '/#/design-token/colours' }, m('pre', 'Design Token'))),
                             ])
                         ),
                         m('.nav-group', 
