@@ -9,9 +9,14 @@ UX Standard Guidelines: Materialise the user values with upgraded total experien
 npm install
 ```
 
-3. Start the website with the command below:
+3. Build the web app with the following command.
+```
+npm run build
+```
+
+4. Start the website with the command below:
 ```
 npm run serve
 ```
 
-4. Done.
+5. Done.
